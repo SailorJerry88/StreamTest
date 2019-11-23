@@ -8,13 +8,16 @@ import java.util.stream.Collectors;
 public class MainStrem {
 
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(3,6);
+        List<Integer> numbers = Arrays.asList(2,4);
 
         numbers.stream()
                 .map(new Function<Integer, Double>() {
                 @Override
                     public Double apply(Integer integer){
-                    return integer / 0.5;
+                    return integer / 2.; // 0.5
+                    
+                    // return integer as (.)
+                    // 2.
                 }
 
 
