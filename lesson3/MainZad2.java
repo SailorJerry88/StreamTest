@@ -33,7 +33,7 @@ public class MainZad2 {
         firstLetter = Character.toUpperCase(firstLetter);
         String substring = s.substring(1);
         return firstLetter + substring;
-    
+
     }
 
 
