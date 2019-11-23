@@ -14,7 +14,7 @@ public class MainStrem {
 
 
 
-        List<Integer> output = numbers.stream() Stream<Integer>
+        List<Double> output = numbers.stream() Stream<Integer>
                 .map(integer -> integer / 2.) Stream<Double>
                 .map(aDouble -> aDouble * 2) Stream<Double>
                 .filter(filtr -> filtr > 4)
